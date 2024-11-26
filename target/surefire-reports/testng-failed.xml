@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="Test.TestCase2">
+        <methods>
+          <include name="regression"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase2 -->
+      <class name="Test.TestCase22">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase22 -->
+      <class name="Test.TestCase14">
+        <methods>
+          <include name="functional2"/>
+          <include name="functional1"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+          <include name="functional3"/>
+        </methods>
+      </class> <!-- Test.TestCase14 -->
+      <class name="Test.TestCase27">
+        <methods>
+          <include name="regression"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase27 -->
+      <class name="Test.TestCase18">
+        <methods>
+          <include name="SignUp"/>
+          <include name="logout"/>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase18 -->
+      <class name="Test.TestCase21">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase21 -->
+      <class name="Test.TestCase15">
+        <methods>
+          <include name="functional2"/>
+          <include name="SignUp"/>
+          <include name="functional"/>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Test.TestCase15 -->
+      <class name="Test.TestCase16">
+        <methods>
+          <include name="logout"/>
+          <include name="SignUp"/>
+          <include name="functional2"/>
+          <include name="functional"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase16 -->
+      <class name="Test.TestCase12">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase12 -->
+      <class name="Test.TestCase9">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase9 -->
+      <class name="Test.TestCase24">
+        <methods>
+          <include name="regression"/>
+          <include name="regression1"/>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression2"/>
+          <include name="regression3"/>
+        </methods>
+      </class> <!-- Test.TestCase24 -->
+      <class name="Test.TestCase25">
+        <methods>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase25 -->
+      <class name="Test.TestCase7">
+        <methods>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Test.TestCase7 -->
+      <class name="Test.TestCase3">
+        <methods>
+          <include name="regression"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase3 -->
+      <class name="Test.TestCase19">
+        <methods>
+          <include name="logout"/>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase19 -->
+      <class name="Test.TestCase1">
+        <methods>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase1 -->
+      <class name="Test.TestCase5">
+        <methods>
+          <include name="regression"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase5 -->
+      <class name="Test.TestCase4">
+        <methods>
+          <include name="regression"/>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase4 -->
+      <class name="Test.TestCase8">
+        <methods>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase8 -->
+      <class name="Test.TestCase20">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="regression1"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase20 -->
+      <class name="Test.TestCase26">
+        <methods>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Test.TestCase26 -->
+      <class name="Test.TestCase13">
+        <methods>
+          <include name="regression"/>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- Test.TestCase13 -->
+      <class name="Test.TestCase6">
+        <methods>
+          <include name="logout"/>
+          <include name="setBrowserConfig"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase6 -->
+      <class name="Test.TestCase10">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase10 -->
+      <class name="Test.TestCase17">
+        <methods>
+          <include name="logout"/>
+          <include name="regression"/>
+          <include name="SignUp"/>
+          <include name="setBrowserConfig"/>
+        </methods>
+      </class> <!-- Test.TestCase17 -->
+      <class name="Test.TestCase11">
+        <methods>
+          <include name="setBrowserConfig"/>
+          <include name="logout"/>
+          <include name="regression"/>
+        </methods>
+      </class> <!-- Test.TestCase11 -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

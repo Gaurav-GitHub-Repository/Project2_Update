@@ -1,0 +1,10 @@
+# Define the pipelines
+pipelines:
+  default:
+    - step:
+        name: Build and Test
+        image: maven:3.8.3-openjdk-11-slim
+        caches:
+          - maven
+        script:
+          - mvn clean install
