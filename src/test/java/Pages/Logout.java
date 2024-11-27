@@ -74,7 +74,7 @@ public class Logout {
 	{
 		try
 		{
-	    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+	    	    WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 		    wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(SignUpButton));
 		    driver.findElement(SignUpButton).click();
 		}
@@ -86,8 +86,8 @@ public class Logout {
 	//Method to verify login account
 	public void verifyLogin()
 	{
-    	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
-	    wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(Login));
+    	        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+	        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(Login));
 		String Login_Form = driver.findElement(Login).getText();
 		if(Login_Form.equalsIgnoreCase("Login to your account"))
 		{
