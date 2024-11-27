@@ -22,7 +22,7 @@ public class Reusablecomponents {
 
 	public WebDriver driver1;
 	
-	
+	//Method to take screenshot
 	public void takeScreenshot(WebDriver driver1) throws IOException
 	{
 		TakesScreenshot screenshot = (TakesScreenshot)driver1;
@@ -30,6 +30,7 @@ public class Reusablecomponents {
 		File target = new File("C:\\Eclipse-Selenium 13-07-2024\\eclipse-java\\AutomationExercise\\screenshots\\TestCase.png");
 		FileHandler.copy(source, target);
 	}
+	//Method to upload file using robot class
 	public void uploadFile() throws AWTException
 	{
 		  Robot robot = new Robot();
@@ -44,17 +45,20 @@ public class Reusablecomponents {
 		  robot.keyPress(KeyEvent.VK_ENTER);
 		  robot.keyRelease(KeyEvent.VK_ENTER);
 	}
+	//Method to scroll using JavascriptExecutor
 	public void scroll()
 	{
 		JavascriptExecutor js = (JavascriptExecutor)driver1;
 		js.executeScript("window.scrollBy(0,350)", "");
 	}
+	//Method to scroll to the element using JavascriptExecutor
 	public void scrollToElement(WebDriver driver1)
 	{
 		WebElement Element = driver1.findElement(By.xpath("//div[@class='brands_products']/h2"));
 		JavascriptExecutor js = (JavascriptExecutor)driver1;
 		js.executeScript("arguments[0].scrollIntoView();", Element);
 	}
+	//Method to scroll on element using JavascriptExecutor
 	public void clickOnElement()
 	{
 		JavascriptExecutor js = (JavascriptExecutor)driver1;
