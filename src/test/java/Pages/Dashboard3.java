@@ -172,8 +172,8 @@ public class Dashboard3  {
 	public void clickOnViewProduct()
 	{	
 		try {
-		//WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
-		//wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(View_Product));
+		        //WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+		        //wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(View_Product));
 			WebElement view_product = driver.findElement(By.xpath("//a[@href='/product_details/1']"));
 			JavascriptExecutor js = (JavascriptExecutor)driver;
 			js.executeScript("arguments[0].click();", view_product);
@@ -219,7 +219,7 @@ public class Dashboard3  {
 	}
 	public void product()
 	{
-	     Actions action = new Actions(driver);
+	         Actions action = new Actions(driver);
 		 WebElement target = driver.findElement(By.xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[2]/div/p"));
 		 action.clickAndHold(target);
 		 String Product1 = driver.findElement(By.xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/div/div[1]/div[2]/div/p")).getText();
