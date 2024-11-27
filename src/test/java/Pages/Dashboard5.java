@@ -202,21 +202,21 @@ public class Dashboard5  {
 			}
 		}
 	}
-	//Method to verify address
-	public void verifyAddress1()
-	{
-		for(int i=2; i<=7; i++)
-		{
-			if(driver.findElement(By.xpath("//div[@class='checkout-information']/div[1]/div[1]/ul/li["+i+"]")).getText().equalsIgnoreCase(driver.findElement(By.xpath("//div[@class='checkout-information']/div[1]/div[2]/ul/li["+i+"]")).getText()))
-			{
-				System.out.println("Delivery address and billing address are verified");
-			}
-			else
-			{
-				System.out.println("Delivery and billing address are not verified");
-			}
-		}
-	}
+//Method to verify address
+public void verifyAddress1()
+{
+for(int i=2; i<=7; i++)
+{
+if(driver.findElement(By.xpath("//div[@class='checkout-information']/div[1]/div[1]/ul/li["+i+"]")).getText().equalsIgnoreCase(driver.findElement(By.xpath("//div[@class='checkout-information']/div[1]/div[2]/ul/li["+i+"]")).getText()))
+{
+System.out.println("Delivery address and billing address are verified");
+}
+else
+{
+System.out.println("Delivery and billing address are not verified");
+}
+}
+}
 	//Method to review names displayed in header
 	public void verifyReviewHeader()
 	{
