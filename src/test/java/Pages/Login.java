@@ -18,7 +18,8 @@ public class Login  {
 
 	Reusablecomponents utility = new Reusablecomponents();
 	
-	private WebDriver driver;
+	static WebDriver driver;
+	
 	//Constructor to assign driver
 	public Login(WebDriver driver)
 	{
