@@ -22,8 +22,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Dashboard2  {
 
 	Reusablecomponents utility = new Reusablecomponents();
-
-	private WebDriver driver;
+	
+	static WebDriver driver;
+	
 	//Constructor to assign driver
 	public Dashboard2(WebDriver driver)
 	{
