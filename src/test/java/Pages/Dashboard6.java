@@ -16,7 +16,7 @@ public class Dashboard6  {
 
 	Reusablecomponents utility = new Reusablecomponents();
 	
-	private WebDriver driver;
+	static WebDriver driver;
 	
 	public Dashboard6(WebDriver driver)
 	{
