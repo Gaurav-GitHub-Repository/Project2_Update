@@ -13,7 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Logout {
 
-	private WebDriver driver;
+	static WebDriver driver;
 	
 	public Logout(WebDriver driver)
 	{
