@@ -20,7 +20,7 @@ public class Dashboard {
 
 	Reusablecomponents utility = new Reusablecomponents();
 	
-	private WebDriver driver;
+	static WebDriver driver;
 	
 	//Constructor to assign driver
 	public Dashboard(WebDriver driver)
