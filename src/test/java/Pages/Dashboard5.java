@@ -21,7 +21,7 @@ public class Dashboard5  {
 
 	Reusablecomponents utility = new Reusablecomponents();
 	
-	private WebDriver driver;
+	static WebDriver driver;
 	
 	//Constructor to assign driver
 	public Dashboard5(WebDriver driver)
