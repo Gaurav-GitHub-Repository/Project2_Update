@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
 
 public class Reusablecomponents {
 
-	public WebDriver driver1;
+	 WebDriver driver1;
 	
 	//Method to take screenshot
 	public void takeScreenshot(WebDriver driver1) throws IOException
