@@ -1,9 +1,9 @@
+
 @FunctionalTest
 Feature: verify logout user functionality
+Scenario Outline: verify logout user with valid credentials
 
-  Background: launch browser and navigate to URL
-
-  Scenario Outline: verify logout user with valid credentials
+    Background: launch browser and navigate to URL
     
     When: verify home page is visible successfully
     And: click on SignuporLoginButton
