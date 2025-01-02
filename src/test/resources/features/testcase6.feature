@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify contact us form functionality
+Scenario: verify success message in contact us form
 
-  Background: launch browser and navigate to URL
-
-  Scenario: verify success message in contact us form
+    Background: launch browser and navigate to URL
     
     When: Verify that home page is visible successfully
     And: click on contact us form
