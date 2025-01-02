@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify cart functionality
+Scenario: verify view category products
 
-  Background: Launch Browser and navigate to url
-
-  Scenario: verify view category products
+    Background: Launch Browser and navigate to url
     
     When: enter details and click on login button
     When: click on products
