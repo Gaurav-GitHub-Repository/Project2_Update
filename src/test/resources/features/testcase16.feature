@@ -1,10 +1,9 @@
 @FunctionalTest
 Feature: verify place order functionality
+Scenario: verify place order login before checkout
 
-  Background: Launch google chrome browser And navigate to url
+    Background: Launch google chrome browser And navigate to url
 
-  Scenario: verify place order login before checkout
-    
     When: verify Homepage is Visible Successfully
     And: Click on signup or login button
     When: fill email, password and click on login button
