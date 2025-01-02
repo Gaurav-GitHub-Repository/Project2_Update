@@ -1,10 +1,9 @@
 @FunctionalTest
 Feature: verify cart functionality
+Scenario: verify remove products from cart
 
-  Background: launch browser and navigate to url
-
-  Scenario: verify remove products from cart
-    
+    Background: launch browser and navigate to url
+     
     When: verify Homepage is visible successfully
     When: enter credentials and click on login button
     When: add products to Cart
