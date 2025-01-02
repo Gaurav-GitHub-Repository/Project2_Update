@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify product details page functionality
+Scenario: verify all products and product details page
 
-  Background: launch browser and navigate to application
-
-  Scenario: verify all products and product details page
+    Background: launch browser and navigate to application
     
     When: Verify homepage is visible successfully
     And: click On Products button
