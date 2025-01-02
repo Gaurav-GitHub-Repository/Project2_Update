@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify scroll up without using arrow button and scroll down functionality
+Scenario: verify user is scrolled up to full fledge practice website for automation engineer text on screen
 
 Background: Launch browser And Navigate to Url
-
-Scenario: verify user is scrolled up to full fledge practice website for automation engineer text on screen
 
 When: Verify Homepage Is Visible Successfully
 When: verify Scroll Down Page To Bottom
