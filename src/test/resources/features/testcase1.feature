@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify register user functionality
+Scenario: verify account is registered, created and deleted
 
 Background: launch browser and navigate to URL
-
-  Scenario: verify account is registered, created and deleted
  
     When: verify that homepage is visible successfully
     And: click on signup or login button
