@@ -1,9 +1,6 @@
 @FunctionalTest
 Feature: verify search product functionality
-
-  Background: launch googlechrome_browser and navigate to URL
-
-  Scenario: verify products related to search are visible
+Scenario: verify products related to search are visible
     
     When: Verify home_page is visible successfully
     And: Click on Products button
