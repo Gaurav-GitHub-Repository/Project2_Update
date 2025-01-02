@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify review on product functionality
+Scenario: verify review is added on product and check success message
 
-  Background: launch browser And navigate to url
-
-  Scenario: verify review is added on product and check success message
+    Background: launch browser And navigate to url
     
     When: click on Products button
     When: verify user is navigated to all products page successfully
