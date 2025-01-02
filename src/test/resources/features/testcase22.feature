@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify add to cart from recommended items functionality
+Scenario: verify product is added from recommended items and check product is displayed in cart page
 
-  Background: Launch Browser And navigate to url
-
-  Scenario: verify product is added from recommended items and check product is displayed in cart page
+    Background: Launch Browser And navigate to url
     
     When: scroll to bottom of page
     When: verify recommended items are visible
