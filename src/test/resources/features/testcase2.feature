@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: Verify login user functionality
+Scenario Outline: Verify login user with correct email and password
 
-Background: launch browser and navigate to URL
-
-  Scenario Outline: Verify login user with correct email and password
+    Background: launch browser and navigate to URL
     
     When: Verify homepage
     And: Click on Signup or Login button
