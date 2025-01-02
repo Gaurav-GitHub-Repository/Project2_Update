@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify download invoice after purchase order functionality
+Scenario: verify download invoice after purchase order and check account is deleted
 
-  Background: Launch browser and navigate to Url
-
-  Scenario: verify download invoice after purchase order and check account is deleted
+    Background: Launch browser and navigate to Url
     
     When: verify homepage is visible successfully
     When: Add Products To Cart
