@@ -1,9 +1,9 @@
+
 @FunctionalTest
 Feature: verify register user functionality
+Scenario: verify register user with existing email
 
-  Background: launch browser and navigate To Url
-
-  Scenario: verify register user with existing email
+    Background: launch browser and navigate To Url
     
     When: verify that home page is visible successfully
     And: click on signuporlogin button
