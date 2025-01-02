@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify subscription functionality
+Scenario: verify subscription in cart page
 
-  Background: launch google_chrome_browser and navigate_to_url
-
-  Scenario: verify subscription in cart page
+    Background: launch google_chrome_browser and navigate_to_url
     
     When: Verify homepage is visible Successfully
     And: click on cart button
