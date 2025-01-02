@@ -1,10 +1,9 @@
 @FunctionalTest
 Feature: verify login user with invalid credentials
+Scenario Outline: verify login user with incorrect email and password
 
-Background: launch browser and navigate to URL
+    Background: launch browser and navigate to URL
 
-  Scenario Outline: verify login user with incorrect email and password
-    
     Given: launch google chrome browser and navigate to URL
     When: verify homepage is Visible Successfully
     And: Click on Signup or Login Button
