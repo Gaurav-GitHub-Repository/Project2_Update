@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify searched products functionality
+Scenario: verify searched products and ensure that products are visible in cart after login as well
 
-  Background: Launch browser And navigate to URL
-
-  Scenario: verify searched products and ensure that products are visible in cart after login as well
+    Background: Launch browser And navigate to URL
     
     When: click On Products Button
     When: user is navigated to all products page successfully
