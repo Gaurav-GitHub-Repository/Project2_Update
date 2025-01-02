@@ -1,9 +1,8 @@
 @FunctionalTest
 Feature: verify place order functionality
+Scenario: verify place order register while checkout
 
-  Background: Launch google_chrome_browser and navigate_to_url
-
-  Scenario: verify place order register while checkout
+    Background: Launch google_chrome_browser and navigate_to_url
     
     When: Verify Homepage is Visible Successfully
     When: add products to cart
